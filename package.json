@@ -1,0 +1,25 @@
+{
+  "name": "Convent.Commits",
+  "version": "1.0.0",
+  "description": "Convent.Commits is a C# package which aids the generation of conventional commit messages.\r  For full documentation see the [Convent documentation site](https://isaac-joseph-brown.gitbook.io/convent/convent.commits).",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isaac-brown/Convent.Commits.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/isaac-brown/Convent.Commits/issues"
+  },
+  "homepage": "https://github.com/isaac-brown/Convent.Commits#readme"
+}
