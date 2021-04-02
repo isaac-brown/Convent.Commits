@@ -3,22 +3,20 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <Authors>Isaac Brown</Authors>
+    <PackageId>Convent.Commits</PackageId>
+    <NeutralLanguage>en</NeutralLanguage>
+    <Description>Library for generating random commit messages.</Description>
+    <Copyright>Isaac Brown</Copyright>
+    <PackageLicenseUrl>https://github.com/isaac-brown/Convent.Commits/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/isaac-brown/Convent.Commits</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/isaac-brown/Convent.Commits</RepositoryUrl>
+    <RepositoryType>Convent.Cli</RepositoryType>
+    <PackageTags>Commits,Conventional,Generator,Random</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Bogus" Version="32.0.2" />
-    <PackageReference Include="StyleCop.Analyzers" Version="1.1.118">
-      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
-      <PrivateAssets>all</PrivateAssets>
-    </PackageReference>
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Remove="stylecop.json" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <AdditionalFiles Include="stylecop.json" />
   </ItemGroup>
 
 </Project>
