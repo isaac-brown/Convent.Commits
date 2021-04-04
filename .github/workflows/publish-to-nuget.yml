@@ -22,7 +22,7 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
-      
+
       - name: Create NuGet package
         shell: pwsh
         run: |
@@ -34,9 +34,4 @@ jobs:
         env:
           NUGET_API_KEY: ${{ secrets.NUGET_API_KEY }}
         run: |
-          .\eng\publish.ps1 -ApiKey $NUGET_API_KEY
-          
-          
-          
-          
-          echo test, and deploy your project.
+          .\eng\publish.ps1 -ApiKey $env:NUGET_API_KEY
